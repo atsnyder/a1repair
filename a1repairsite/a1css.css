@@ -6,13 +6,13 @@ body {
 	text-align: center; 
 	min-height: 100%;
 	background:#fff;
-	background:-moz-linear-gradient(top, #eee 0%, #fff 100%);
+	/*background:-moz-linear-gradient(top, #eee 0%, #fff 100%);
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #fff));
 	background:-webkit-linear-gradient(top, #eee 0%, #fff 100%);
 	background:-o-linear-gradient(top, #eee 0%, #fff 100%);
 	background:-ms-linear-gradient(top, #eee 0%, #fff 100%);
 	background:linear-gradient(top, #eee 0%, #fff 100%);
-	z-index:-5;
+	z-index:-5;*/
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
