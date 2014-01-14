@@ -45,6 +45,16 @@ imgarray5[1] = "tn/minitr/minitr2.jpg";
 imgarray5[2] = "tn/minitr/minitr3.jpg";
 curr5 = 0;
 
+imgarray6 = new Array();
+imgarray6[0] = "tn/atrac/atrac1.jpg";
+imgarray6[1] = "tn/atrac/atrac2.jpg";
+imgarray6[2] = "tn/atrac/atrac3.jpg";
+imgarray6[3] = "tn/atrac/atrac4.jpg";
+imgarray6[4] = "tn/atrac/atrac5.jpg";
+imgarray6[5] = "tn/atrac/atrac6.jpg";
+imgarray6[6] = "tn/atrac/atrac7.jpg";
+curr6 = 0;
+
 function nextImage(imgarr, curr, currid) {
 	var img = document.getElementById(currid);
 	img.src = imgarr[curr];
@@ -129,4 +139,20 @@ function pI5() {
 		curr5 = imgarray5.length - 1;
 	}
 	nextImage(imgarray5, curr5, "saleimg5");
+}
+
+function nI6() {
+	curr6 = curr6 + 1;
+	if (curr6 == imgarray6.length){
+		curr6 = 0;
+	}
+	nextImage(imgarray6, curr6, "saleimg6");
+}
+
+function pI6() {
+	curr6 = curr6 - 1;
+	if (curr6 < 0){
+		curr6 = imgarray6.length - 1;
+	}
+	nextImage(imgarray6, curr6, "saleimg6");
 }
