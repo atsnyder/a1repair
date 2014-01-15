@@ -121,7 +121,7 @@ li {
 	display:inline;
 }
 
-a:link, a:visited {
+a.bar:link, a.bar:visited {
 	display:block;
 	font-weight:bold;
 	color:white;
@@ -131,6 +131,6 @@ a:link, a:visited {
 	text-transform:uppercase;
 }
 
-a:hover, a:active {
+a.bar:hover, a.bar:active {
 	background-color:#27394F;
 }
