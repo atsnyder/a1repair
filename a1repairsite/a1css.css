@@ -6,13 +6,13 @@ body {
 	text-align: center; 
 	min-height: 100%;
 	background:#fff;
-	/*background:-moz-linear-gradient(top, #eee 0%, #fff 100%);
+	background:-moz-linear-gradient(top, #eee 0%, #fff 100%);
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #fff));
 	background:-webkit-linear-gradient(top, #eee 0%, #fff 100%);
 	background:-o-linear-gradient(top, #eee 0%, #fff 100%);
 	background:-ms-linear-gradient(top, #eee 0%, #fff 100%);
 	background:linear-gradient(top, #eee 0%, #fff 100%);
-	z-index:-5;*/
+	z-index:-5;
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -103,33 +103,91 @@ header {
 	color: #2F4C6A;
 }
 
+.homeq{
+	font-size:30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeblock{
+	display:block;
+	height:175px;
+}
+
+.homesub{
+	font-size:20px;
+	color: white;
+}
+
 .homesub#lefts {
-background: #708ba6; /* Old browsers */
-background: -moz-linear-gradient(left, #708ba6 0%, #ffffff 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,#708ba6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, #708ba6 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, #708ba6 0%,#ffffff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, #708ba6 0%,#ffffff 100%); /* IE10+ */
-background: linear-gradient(to right, #708ba6 0%,#ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#708ba6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
-text-align:left;
+	background: #708ba6; /* Old browsers */
+	background: -moz-linear-gradient(left, #708ba6 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#708ba6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #708ba6 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #708ba6 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #708ba6 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to right, #708ba6 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#708ba6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+	text-align:left;
 }
 
 .homesub#rights{
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(left, #ffffff 0%, #708ba6 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(100%,#708ba6)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, #ffffff 0%,#708ba6 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, #ffffff 0%,#708ba6 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, #ffffff 0%,#708ba6 100%); /* IE10+ */
-background: linear-gradient(to right, #ffffff 0%,#708ba6 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#708ba6',GradientType=1 ); /* IE6-9 */
-text-align:right;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffffff 0%, #708ba6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(100%,#708ba6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ffffff 0%,#708ba6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #ffffff 0%,#708ba6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #ffffff 0%,#708ba6 100%); /* IE10+ */
+	background: linear-gradient(to right, #ffffff 0%,#708ba6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#708ba6',GradientType=1 ); /* IE6-9 */
+	text-align:right;
+}
+
+.homeinfol{
+	font-size: 18px;
+	width: 60%;
+	float:left;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeinfor{
+	font-size: 18px;
+	width: 60%;
+	float:right;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.hometext#leftt{
+	text-align:justify;
+	padding-left:10px;
+	padding-right:40px;
+}
+
+.hometext#rightt{
+	text-align:justify;
+	padding-right:10px;
+	padding-left:40px;
+}
+
+.homeimgblock{
+	max-height:100%;
+	width:40%;
+	display:inline;
+}
+
+.homeimg{
+	max-width:100%;
+	max-height:100%;
+	display:block;
+	margin:0 auto;
 }
 
 #homebody{
 	width:90%;
-	vertical-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
 }
 
 ul {
