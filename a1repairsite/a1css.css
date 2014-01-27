@@ -90,6 +90,18 @@ header {
 	color: #2F4C6A;
 }
 
+#headernumber {
+	display:inline-block;
+    vertical-align:middle;
+	margin-left: 20px;
+    line-height:0px;
+	padding-left: 110px;
+	padding-right: 110px;
+	font-family: "Arial Black", Gadget, sans-serif; 
+	font-size: 40px; 
+	color: #2F4C6A;
+}
+
 #headerinfo {
 	display:inline-block;
 	text-align:right;
@@ -118,6 +130,17 @@ header {
 	color: white;
 }
 
+.homesub#cents {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffffff 0%, #708ba6 50%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(50%,#708ba6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ffffff 0%,#708ba6 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #ffffff 0%,#708ba6 50%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #ffffff 0%,#708ba6 50%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to right, #ffffff 0%,#708ba6 50%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
 .homesub#lefts {
 	background: #708ba6; /* Old browsers */
 	background: -moz-linear-gradient(left, #708ba6 0%, #ffffff 100%); /* FF3.6+ */
@@ -142,6 +165,12 @@ header {
 	text-align:right;
 }
 
+#homeinfoc{
+	font-size: 18px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .homeinfol{
 	font-size: 18px;
 	width: 60%;
@@ -156,6 +185,15 @@ header {
 	float:right;
 	text-align: right;
 	font-family: Arial, Helvetica, sans-serif;
+}
+.hometext#hours{
+	font-weight: bold;
+}
+
+.hometext#centert{
+	text-align:justify;
+	padding-left:75px;
+	padding-right:75px;
 }
 
 .hometext#leftt{
