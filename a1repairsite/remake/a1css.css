@@ -290,9 +290,22 @@ header {
 	text-align:justify;
 }
 
+.circle{
+	list-style-type: circle;
+	width:50%;
+	float:left;
+}
+
+.headerbar{
+	width:100%;
+	min-width:1000px;
+}
+
 #filldis{
 	background: #19202A;
 	margin: 0;
+	width: auto;
+	min-width:1000px;
 	min-height:100%;
 	height: auto;
 	background-size: cover;
