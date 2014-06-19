@@ -290,10 +290,12 @@ header {
 	text-align:justify;
 }
 
-.circle{
-	list-style-type: circle;
+ul.circle{
+	list-style-type:square;
 	width:50%;
 	float:left;
+	background:none;
+	list-style-position:inside;
 }
 
 .headerbar{
@@ -326,6 +328,13 @@ li {
 	padding-top: 7px;
 	padding-bottom: 7px;
 	text-align:center;
+}
+
+.not{
+	float:none;
+	text-align:left;
+	list-style-type: square;
+	list-style-position:inside;
 }
 
 #imgbutton {
