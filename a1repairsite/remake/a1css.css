@@ -278,6 +278,7 @@ header {
 	width:63%;
 	color:white;
 	float:right;
+	padding-bottom:15px;
 }
 
 #stantitle{
@@ -290,9 +291,22 @@ header {
 	text-align:justify;
 }
 
-ul.circle{
+#leftimg{
+	float:left;
+}
+
+ul.leftcircle{
 	list-style-type:square;
 	width:50%;
+	float:left;
+	background:none;
+	list-style-position:inside;
+	margin-left:100px;
+}
+
+ul.rightcircle{
+	list-style-type:square;
+
 	float:left;
 	background:none;
 	list-style-position:inside;
@@ -361,6 +375,6 @@ a.bar:link, a.bar:visited {
 	text-transform:uppercase;
 }
 
-a.bar:hover, a.bar:active {
+a.bar:hover, a.bar:active, a.bar#selected {
 	background-color:#27394F;
 }
