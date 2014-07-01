@@ -296,6 +296,10 @@ header {
 	width:500px;
 }
 
+#rightimg{
+	float:left;
+}
+
 ul.leftcircle{
 	list-style-type:square;
 	width:50%;
@@ -343,6 +347,8 @@ li {
 	padding-top: 7px;
 	padding-bottom: 7px;
 	text-align:center;
+	margin: 0;
+	
 }
 
 .not{
@@ -364,18 +370,50 @@ hr {
 	margin: 10px;
 }
 
+.bar{
+	font-size:16px;
+}
+
 a.bar:link, a.bar:visited {
 	display:block;
 	color:white;
 	text-align:center;
 	padding-top:6px;
 	padding-bottom:6px;
-	padding-left: 19px;
-	padding-right: 19px;
+	width:100%;
 	text-decoration:none;
 	text-transform:uppercase;
+	margin:0;
 }
 
 a.bar:hover, a.bar:active, a.bar#selected {
 	background-color:#27394F;
+}
+
+#hli{
+	width:85px;
+}
+
+#ali{
+	width:143px;
+}
+
+#dli{
+	width:212px;
+}
+
+#rli{
+	width:145px;
+}
+
+#tli{
+	width:191px;
+}
+
+#toli{
+	width:100px;
+}
+
+#cli{
+	width:114px;
 }
