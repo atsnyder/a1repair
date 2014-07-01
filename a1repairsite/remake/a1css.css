@@ -28,7 +28,7 @@ form {
 #mainContainer { 
 	margin:0 auto; 
 	width:1000px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 
 #saleitem {
@@ -56,7 +56,7 @@ form {
 	width: 60%;
 	float:left;
 	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 
 #floatfairy{
@@ -127,7 +127,7 @@ header {
 
 .homeq{
 	font-size:30px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 
 .homeblock{
@@ -178,7 +178,7 @@ header {
 #homeinfoc{
 	font-size: 18px;
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 
 .homeinfol{
@@ -186,7 +186,7 @@ header {
 	width: 60%;
 	float:left;
 	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 
 .homeinfor{
@@ -194,7 +194,7 @@ header {
 	width: 60%;
 	float:right;
 	text-align: right;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 .hometext#hours{
 	font-weight: bold;
@@ -282,7 +282,7 @@ header {
 }
 
 #stantitle{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 	text-decoration:underline;
 	color:#FFFF99;
 }
@@ -338,7 +338,7 @@ ul {
 }
 
 li {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 	float:left;
 	padding-top: 7px;
 	padding-bottom: 7px;
